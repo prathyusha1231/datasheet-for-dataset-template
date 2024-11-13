@@ -28,7 +28,7 @@ Unlike traditional technical databases focused solely on safety, the AIAAIC Repo
 
 ### Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?
 
-The AIAAIC Repository is operated by a group of human volunteers committed to fostering responsible AI practices. The repository is maintained as part of a broader initiative to ensure AI systems are transparent and accountable.
+The AIAAIC Repository is operated by the AIAAIC team, the dataset is maintained by Charlie Pownall (Managing Editor) and contributors with specific expertise (e.g., copyright, diffusion models, algorithmic bias).
 
 ### Who funded the creation of the dataset? 
 
@@ -253,7 +253,7 @@ The dataset is continuously available to the public and updated regularly.
 
 ### Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?
 
-There are no specific details about licensing provided. However, as a public-interest initiative, the dataset is likely intended for open use with proper attribution.
+When data or content from the AIAAIC Repository is adapted, remixed, or redistributed, it must also be republished under the same CC BY-SA 4.0 license.
 
 ### Have any third parties imposed IP-based or other restrictions on the data associated with the instances?
 
@@ -271,7 +271,7 @@ The dataset’s open-access model ensures wide usability for researchers, educat
 
 ### Who is supporting/hosting/maintaining the dataset?
 
-The dataset is maintained by the AIAAIC team, a group of human volunteers committed to promoting transparency, openness, and accountability in AI systems.
+The editorial team, led by Charlie Pownall, maintains it.
 
 ### How can the owner/curator/manager of the dataset be contacted (e.g., email address)?
 

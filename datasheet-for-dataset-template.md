@@ -145,7 +145,7 @@ The dataset is created and maintained by a team of human volunteers. No monetary
 
 ### Over what timeframe was the data collected?
 
-The dataset is continuously updated, with new incidents added as they occur. Historical incidents have been documented retrospectively to provide a comprehensive view of AI-related controversies over time.
+The dataset is continuously updated, with new incidents added as they occur, several times a week. Historical incidents have been documented retrospectively to provide a comprehensive view of AI-related controversies over time since 2020.
 
 ### Were any ethical review processes conducted (e.g., by an institutional review board)?
 
@@ -173,7 +173,7 @@ Not applicable.
 
 ### Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted?
 
-No formal data protection impact analysis has been conducted, as the dataset does not include personal data and relies entirely on publicly available information.
+No formal data protection impact analysis has been conducted, as the dataset does not include personal data.
 
 ### Any other comments?
 
@@ -253,7 +253,7 @@ The dataset is continuously available to the public and updated regularly.
 
 ### Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?
 
-There are no specific details about licensing provided. However, as a public-interest initiative, the dataset is likely intended for open use with proper attribution. Users should check the AIAAIC website for any specific terms of use.
+There are no specific details about licensing provided. However, as a public-interest initiative, the dataset is likely intended for open use with proper attribution.
 
 ### Have any third parties imposed IP-based or other restrictions on the data associated with the instances?
 
@@ -275,7 +275,7 @@ The dataset is maintained by the AIAAIC team, a group of human volunteers commit
 
 ### How can the owner/curator/manager of the dataset be contacted (e.g., email address)?
 
-The AIAAIC team can be contacted through the official AIAAIC website or via email and social media channels, as specified on their website.
+The AIAAIC team can be contacted through the official AIAAIC website or via email and social media channels.
 
 ### Is there an erratum?
 
@@ -286,7 +286,7 @@ No specific erratum has been mentioned. Any corrections or updates are likely ma
 Yes, the dataset is continuously updated to include:
 * Newly reported incidents and issues.
 * Corrections to existing entries as needed.
-Updates are made by the AIAAIC team and published on the repository.
+Updates are made by the AIAAIC team and published on the repository several times a week.
 
 ### If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances (e.g., were individuals in question told that their data would be retained for a fixed period of time and then deleted)?
 

@@ -1,4 +1,4 @@
-# Datasheet for dataset "add dataset name here"
+# Datasheet for dataset "AIAAIC"
 
 Questions from the [Datasheets for Datasets](https://arxiv.org/abs/1803.09010) paper, v7.
 
@@ -13,10 +13,16 @@ Jump to section:
 - [Maintenance](#maintenance)
 
 ## Motivation
+The AIAAIC Repository (AI, Algorithmic, and Automation Incidents and Controversies) is an independent, open, public-interest resource designed to document incidents and controversies driven by AI, algorithms, and automation. By providing detailed accounts of risks and harms associated with these systems, the Repository seeks to make AI technologies more transparent, open, and ultimately accountable.
 
-_The questions in this section are primarily intended to encourage dataset creators
-to clearly articulate their reasons for creating the dataset and to promote transparency
-about funding interests._
+Unlike traditional technical databases focused solely on safety, the AIAAIC Repository adopts a broader "outside-in" perspective, addressing non-technical issues such as:
+* Job displacements and economic impacts.
+* Environmental damage linked to automation.
+* Misleading or hyped marketing practices.
+* Anthropomorphism and its societal effects.
+* Unethical data usage and privacy concerns.
+
+This approach emphasizes the external risks and societal harms posed by AI systems rather than just technical vulnerabilities. As a resource, it supports researchers, educators, journalists, policymakers, and advocacy groups in analyzing and addressing the ethical and societal implications of AI technologies.
 
 ### For what purpose was the dataset created? 
 

@@ -91,7 +91,7 @@ The dataset includes links to external resources, such as reports and news artic
 
 ### Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals’ non-public communications)?
 
-No, the dataset is built entirely from publicly available information and does not include confidential or privileged data.
+No, the dataset is built primarily from publicly available information, such as news reports, legal documents, and research studies. While data may also be submitted by individuals, the submission and review process ensures that the dataset aligns with the repository's focus on public incidents and controversies, excluding any confidential or privileged information.
 
 ### Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?
 

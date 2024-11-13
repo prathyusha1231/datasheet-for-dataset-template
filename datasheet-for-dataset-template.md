@@ -157,23 +157,23 @@ Yes, some incidents involve individuals or groups impacted by AI systems. Howeve
 
 ### Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g., websites)?
 
-The data is obtained from third-party sources, including news reports, legal documents, and research studies. In some cases, whistleblowers or third parties submit information directly to the Repository.
+The data is obtained from third-party sources, including news reports, legal documents, and research studies. Additionally, individuals may submit information to AIAAIC personnel as part of the community-driven effort to detect, evaluate, and document AI-related harms. These submissions are reviewed by the editorial team before being included in the Repository.
 
 ### Were the individuals in question notified about the data collection?
 
-Not applicable, as the data is gathered from publicly available sources, and no direct data collection from individuals occurs.
+Not applicable for data sourced from third parties. For submissions from individuals, the AIAAIC process ensures transparency by informing Contributors about how their data will be evaluated, documented, and potentially published in the Repository.
 
 ### Did the individuals in question consent to the collection and use of their data?
 
-Not applicable, as the data does not involve personal or private information requiring consent.
+Not applicable for data obtained from third parties. For direct submissions, consent is provided through the Contributor application and review process, where individuals agree to the ethical use and publication of their contributions after review.
 
 ### If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?
 
-Not applicable.
+Not applicable for data obtained from third parties. For contributions made by individuals, AIAAIC provides mechanisms to request the removal or modification of their submitted data as part of its community-driven and fair documentation process.
 
 ### Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted?
 
-No formal data protection impact analysis has been conducted, as the dataset does not include personal data.
+As a community-driven initiative, AIAAIC reviews all submissions to ensure that the data is documented in an evidence-based, fair, and balanced manner. While the dataset does not typically involve personal information, periodic reviews assess its broader societal and ethical impacts.
 
 ### Any other comments?
 
@@ -257,7 +257,7 @@ When data or content from the AIAAIC Repository is adapted, remixed, or redistri
 
 ### Have any third parties imposed IP-based or other restrictions on the data associated with the instances?
 
-No third-party restrictions on the dataset have been mentioned. The data is curated from publicly available sources.
+No third-party restrictions on the dataset have been mentioned.
 
 ### Do any export controls or other regulatory restrictions apply to the dataset or to individual instances?
 

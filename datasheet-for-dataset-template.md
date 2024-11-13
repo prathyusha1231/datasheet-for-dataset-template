@@ -40,256 +40,268 @@ The AIAAIC Repository is funded by donations from individuals worldwide. As a pu
 
 ### What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?
 
-The dataset consists of documented incidents and controversies involving AI, algorithms, and automation. Each instance represents a specific incident, including its description, associated technology, sector, location, and impact.
+The dataset comprises documented incidents and controversies involving AI, algorithms, and automation. Each instance represents a specific incident, described by key details such as the technology involved, affected sectors, and associated harms.
 
 ### How many instances are there in total (of each type, if appropriate)?
 
+The dataset includes multiple entries. Based on the sample data, it contains incidents categorized as "Issue" or "Incident." The exact count is 1799.
+
 ### Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?
 
-_If the dataset is a sample, then what is the larger set? Is the sample representative
-of the larger set (e.g., geographic coverage)? If so, please describe how this
-representativeness was validated/verified. If it is not representative of the larger set,
-please describe why not (e.g., to cover a more diverse range of instances, because
-instances were withheld or unavailable)._
+The dataset is a curated sample of incidents and controversies reported globally. While comprehensive, it does not capture all potential incidents and is likely subject to ongoing updates.
 
 ### What data does each instance consist of? 
 
-_“Raw” data (e.g., unprocessed text or images) or features? In either case, please
-provide a description._
+Each instance consists of:
+* A unique identifier (AIAAIC ID#).
+* Headline or description of the incident.
+* Type (Issue/Incident).
+* Date and location of occurrence.
+* Impacted sectors and entities (Deployers, Developers).
+* Issues, transparency concerns, and associated harms.
+* Links to further information.
 
 ### Is there a label or target associated with each instance?
 
-_If so, please provide a description._
+Yes, labels include:
+* Type: "Issue" or "Incident."
+* Sector(s): Industry impacted.
+* Issues: Core themes, such as employment or environmental concerns.
+* Harms: External (societal) or internal (organizational).
 
 ### Is any information missing from individual instances?
 
-_If so, please provide a description, explaining why this information is missing (e.g.,
-because it was unavailable). This does not include intentionally removed information,
-but might include, e.g., redacted text._
+Some entries have incomplete data, such as missing developer names, exact geographic locations, or detailed harms, likely due to limitations in the original reporting.
 
 ### Are relationships between individual instances made explicit (e.g., users’ movie ratings, social network links)?
 
-_If so, please describe how these relationships are made explicit._
+No explicit relationships between instances are documented. However, shared attributes like "Sector" or "Issue" can be used to infer connections.
 
 ### Are there recommended data splits (e.g., training, development/validation, testing)?
 
-_If so, please provide a description of these splits, explaining the rationale behind them._
+No predefined splits are provided, as the dataset is primarily for analysis and reference purposes.
 
 ### Are there any errors, sources of noise, or redundancies in the dataset?
 
-_If so, please provide a description._
+The dataset may include minor inconsistencies or redundancies, such as overlapping issues across similar incidents, due to variations in reporting.
 
 ### Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g., websites, tweets, other datasets)?
 
-_If it links to or relies on external resources, a) are there guarantees that they will
-exist, and remain constant, over time; b) are there official archival versions of the
-complete dataset (i.e., including the external resources as they existed at the time the
-dataset was created); c) are there any restrictions (e.g., licenses, fees) associated with
-any of the external resources that might apply to a future user? Please provide descriptions
-of all external resources and any restrictions associated with them, as well as links or other
-access points, as appropriate._
+The dataset includes links to external resources, such as reports and news articles, for detailed descriptions of incidents. These links are subject to availability over time.
 
 ### Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals’ non-public communications)?
 
-_If so, please provide a description._
+No, the dataset is built entirely from publicly available information and does not include confidential or privileged data.
 
 ### Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?
 
-_If so, please describe why._
+Yes, some incidents involve sensitive topics, such as discrimination, economic harm, or safety concerns, which could cause anxiety for certain audiences.
 
 ### Does the dataset relate to people? 
 
-_If not, you may skip the remaining questions in this section._
+Yes, some incidents involve individuals or groups impacted by AI systems. However, the dataset does not contain personally identifiable information (PII).
 
 ### Does the dataset identify any subpopulations (e.g., by age, gender)?
 
-_If so, please describe how these subpopulations are identified and provide a description of
-their respective distributions within the dataset._
+The dataset does not explicitly identify subpopulations but may reference affected demographics (e.g., workers, students) in the descriptions.
 
 ### Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) from the dataset?
 
-_If so, please describe how._
+No, the dataset does not include information that could directly or indirectly identify individuals.
 
 ### Does the dataset contain data that might be considered sensitive in any way (e.g., data that reveals racial or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)?
 
-_If so, please provide a description._
+The dataset references sensitive issues in the context of incidents (e.g., ethical violations or discrimination) but does not include sensitive personal data.
 
 ### Any other comments?
+The AIAAIC dataset provides a broad and ethical overview of incidents and controversies, with a focus on transparency and public accountability, ensuring responsible use.
 
 ## Collection process
 
-_\[T\]he answers to questions here may provide information that allow others to
-reconstruct the dataset without access to it._
-
 ### How was the data associated with each instance acquired?
 
-_Was the data directly observable (e.g., raw text, movie ratings), reported by subjects (e.g.,
-survey responses), or indirectly inferred/derived from other data (e.g., part-of-speech tags,
-model-based guesses for age or language)? If data was reported by subjects or indirectly
-inferred/derived from other data, was the data validated/verified? If so, please describe how._
+All entries in the AIAAIC Repository are manually compiled by the team. Incidents are identified through:
+* Submissions from third parties via the AIAAIC website.
+* Contributions from community members shared via email or social media.
+* Web searches and Google Alerts.
 
 ### What mechanisms or procedures were used to collect the data (e.g., hardware apparatus or sensor, manual human curation, software program, software API)?
 
-_How were these mechanisms or procedures validated?_
+The data collection process involves a six-step manual workflow:
+  1.  Detect: Identifying incidents through submissions, web searches, and alerts.
+  2.  Assess: Evaluating incidents against qualitative criteria, such as relevance, impacts, and credibility.
+  3.  Classify: Categorizing entries based on AIAAIC's classifications and definitions.
+  4.  Summarize: Writing a brief summary for each entry.
+  5.  Approve: Ensuring accuracy, fairness, and legality through editorial review.
+  6.  Publish: Publishing the entries on the AIAAIC website and Google sheet.
 
 ### If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?
 
+The dataset is a curated sample of incidents, selected based on their relevance to AI, algorithmic, and automation controversies. The sampling strategy focuses on ensuring diverse geographic, sectoral, and technological representation.
+
 ### Who was involved in the data collection process (e.g., students, crowdworkers, contractors) and how were they compensated (e.g., how much were crowdworkers paid)?
+
+The dataset is created and maintained by a team of human volunteers. No monetary compensation is provided, as the project operates on a public-interest model and relies on donations.
 
 ### Over what timeframe was the data collected?
 
-_Does this timeframe match the creation timeframe of the data associated with the instances (e.g.
-recent crawl of old news articles)? If not, please describe the timeframe in which the data
-associated with the instances was created._
+The dataset is continuously updated, with new incidents added as they occur. Historical incidents have been documented retrospectively to provide a comprehensive view of AI-related controversies over time.
 
 ### Were any ethical review processes conducted (e.g., by an institutional review board)?
 
-_If so, please provide a description of these review processes, including the outcomes, as well as
-a link or other access point to any supporting documentation._
+No formal ethical review processes were conducted. However, the editorial team ensures that all entries meet standards of accuracy, fairness, balance, and legality before publication.
 
 ### Does the dataset relate to people?
 
-_If not, you may skip the remainder of the questions in this section._
+Yes, some incidents involve individuals or groups impacted by AI systems. However, no personal or identifiable data is included.
 
 ### Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g., websites)?
 
+The data is obtained from third-party sources, including news reports, legal documents, and research studies. In some cases, whistleblowers or third parties submit information directly to the Repository.
+
 ### Were the individuals in question notified about the data collection?
 
-_If so, please describe (or show with screenshots or other information) how notice was provided,
-and provide a link or other access point to, or otherwise reproduce, the exact language of the
-notification itself._
+Not applicable, as the data is gathered from publicly available sources, and no direct data collection from individuals occurs.
 
 ### Did the individuals in question consent to the collection and use of their data?
 
-_If so, please describe (or show with screenshots or other information) how consent was
-requested and provided, and provide a link or other access point to, or otherwise reproduce, the
-exact language to which the individuals consented._
+Not applicable, as the data does not involve personal or private information requiring consent.
 
 ### If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?
 
-_If so, please provide a description, as well as a link or other access point to the mechanism
-(if appropriate)._
+Not applicable.
 
 ### Has an analysis of the potential impact of the dataset and its use on data subjects (e.g., a data protection impact analysis) been conducted?
 
-_If so, please provide a description of this analysis, including the outcomes, as well as a link
-or other access point to any supporting documentation._
+No formal data protection impact analysis has been conducted, as the dataset does not include personal data and relies entirely on publicly available information.
 
 ### Any other comments?
 
-## Preprocessing/cleaning/labeling
+The AIAAIC Repository is designed with a focus on ethical curation and responsible documentation. Its rigorous verification and editorial processes ensure that the dataset is accurate, balanced, and suitable for public use.
 
-_The questions in this section are intended to provide dataset consumers with the information
-they need to determine whether the “raw” data has been processed in ways that are compatible
-with their chosen tasks. For example, text that has been converted into a “bag-of-words” is
-not suitable for tasks involving word order._
+## Preprocessing/cleaning/labeling
 
 ### Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)?
 
-_If so, please provide a description. If not, you may skip the remainder of the questions in
-this section._
+Based on the nature of the dataset:
+* The dataset appears to have been curated manually by the AIAAIC team.
+* Entries are likely reviewed and classified based on relevance, impacts, and categories (e.g., "Type," "Sector," and "Issues").
 
 ### Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?
 
-_If so, please provide a link or other access point to the “raw” data._
+There is no indication that raw data is retained. The publicly available dataset contains only the curated and approved entries.
 
 ### Is the software used to preprocess/clean/label the instances available?
 
-_If so, please provide a link or other access point._
+Preprocessing and labeling appear to have been conducted manually. No specific software or automated tools are mentioned.
 
 ### Any other comments?
 
 ## Uses
 
-_These questions are intended to encourage dataset creators to reflect on the tasks
-for which the dataset should and should not be used. By explicitly highlighting these tasks,
-dataset creators can help dataset consumers to make informed decisions, thereby avoiding
-potential risks or harms._
-
 ### Has the dataset been used for any tasks already?
 
-_If so, please provide a description._
+Yes, the AIAAIC Repository has been used as a reference and research tool by various stakeholders, including:
+* Researchers studying AI ethics and risks.
+* Educators developing training and educational materials.
+* Policymakers and advocacy groups analyzing AI's societal impacts.
 
 ### Is there a repository that links to any or all papers or systems that use the dataset?
 
-_If so, please provide a link or other access point._
+No specific repository for related papers or systems is mentioned. However, users of the dataset may refer to it directly through the AIAAIC website and the Google sheet.
 
 ### What (other) tasks could the dataset be used for?
 
+The dataset has broad applicability, including:
+* Qualitative and Quantitative Research: Studying patterns in AI-related controversies, such as biases or environmental harms.
+* Policy Development: Informing guidelines for responsible AI adoption.
+* Educational Campaigns: Creating training programs or workshops focused on AI ethics.
+* Public Advocacy: Supporting campaigns highlighting the societal risks of AI systems.
+
 ### Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?
 
-_For example, is there anything that a future user might need to know to avoid uses that
-could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of
-service issues) or other undesirable harms (e.g., financial harms, legal risks) If so, please
-provide a description. Is there anything a future user could do to mitigate these undesirable
-harms?_
+Yes, the following considerations may affect future use:
+* Bias in Incident Selection: While curated carefully, incidents may reflect certain geographic or media biases based on available reports.
+* Qualitative Nature: The dataset’s qualitative focus may limit its direct application to highly quantitative tasks, such as predictive modeling.
 
 ### Are there tasks for which the dataset should not be used?
 
-_If so, please provide a description._
+The dataset is not intended for:
+* Developing AI systems directly, as it documents controversies and risks.
+* Tasks requiring granular, quantitative data, such as detailed statistical modeling or benchmarking.
 
 ### Any other comments?
+
+The AIAAIC Repository is a valuable resource for analyzing ethical and societal implications of AI systems. Users should be mindful of its focus on qualitative insights and potential biases in incident representation.
 
 ## Distribution
 
 ### Will the dataset be distributed to third parties outside of the entity (e.g., company, institution, organization) on behalf of which the dataset was created? 
 
-_If so, please provide a description._
+Yes, the dataset is publicly available and accessible to anyone through the AIAAIC website and Google sheet.
 
 ### How will the dataset will be distributed (e.g., tarball on website, API, GitHub)?
 
-_Does the dataset have a digital object identifier (DOI)?_
+The dataset is distributed via:
+* A publicly accessible Google sheet.
+* The AIAAIC Repository website.
+No, the dataset does not currently have a DOI.
 
 ### When will the dataset be distributed?
 
+The dataset is continuously available to the public and updated regularly.
+
 ### Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?
 
-_If so, please describe this license and/or ToU, and provide a link or other access point to,
-or otherwise reproduce, any relevant licensing terms or ToU, as well as any fees associated
-with these restrictions._
+There are no specific details about licensing provided. However, as a public-interest initiative, the dataset is likely intended for open use with proper attribution. Users should check the AIAAIC website for any specific terms of use.
 
 ### Have any third parties imposed IP-based or other restrictions on the data associated with the instances?
 
-_If so, please describe these restrictions, and provide a link or other access point to, or
-otherwise reproduce, any relevant licensing terms, as well as any fees associated with these
-restrictions._
+No third-party restrictions on the dataset have been mentioned. The data is curated from publicly available sources.
 
 ### Do any export controls or other regulatory restrictions apply to the dataset or to individual instances?
 
-_If so, please describe these restrictions, and provide a link or other access point to, or otherwise
-reproduce, any supporting documentation._
+No export controls or regulatory restrictions are indicated.
 
 ### Any other comments?
+
+The dataset’s open-access model ensures wide usability for researchers, educators, policymakers, and the general public. Users should verify any specific usage terms on the AIAAIC website.
 
 ## Maintenance
 
-_These questions are intended to encourage dataset creators to plan for dataset maintenance
-and communicate this plan with dataset consumers._
-
 ### Who is supporting/hosting/maintaining the dataset?
+
+The dataset is maintained by the AIAAIC team, a group of human volunteers committed to promoting transparency, openness, and accountability in AI systems.
 
 ### How can the owner/curator/manager of the dataset be contacted (e.g., email address)?
 
+The AIAAIC team can be contacted through the official AIAAIC website or via email and social media channels, as specified on their website.
+
 ### Is there an erratum?
 
-_If so, please provide a link or other access point._
+No specific erratum has been mentioned. Any corrections or updates are likely made directly within the dataset.
 
 ### Will the dataset be updated (e.g., to correct labeling errors, add new instances, delete instances)?
 
-_If so, please describe how often, by whom, and how updates will be communicated to users (e.g., mailing list, GitHub)?_
+Yes, the dataset is continuously updated to include:
+* Newly reported incidents and issues.
+* Corrections to existing entries as needed.
+Updates are made by the AIAAIC team and published on the repository.
 
 ### If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances (e.g., were individuals in question told that their data would be retained for a fixed period of time and then deleted)?
 
-_If so, please describe these limits and explain how they will be enforced._
+Not applicable, as the dataset does not include personal or identifiable data about individuals.
 
 ### Will older versions of the dataset continue to be supported/hosted/maintained?
 
-_If so, please describe how. If not, please describe how its obsolescence will be communicated to users._
+Older versions are not explicitly maintained, as updates are made directly to the live dataset. Users always have access to the latest version via the AIAAIC website.
 
 ### If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so?
 
-_If so, please provide a description. Will these contributions be validated/verified? If so,
-please describe how. If not, why not? Is there a process for communicating/distributing these
-contributions to other users? If so, please provide a description._
+Yes, contributions can be made via:
+* Submissions through the AIAAIC website.
+* Sharing relevant incidents via email or social media.
+* Submissions are assessed and verified before being added to the dataset.
 
 ### Any other comments?
+The AIAAIC team’s commitment to ongoing updates ensures that the dataset remains relevant and reflective of emerging issues in AI, algorithms, and automation. Contributions from the community further enhance its comprehensiveness.

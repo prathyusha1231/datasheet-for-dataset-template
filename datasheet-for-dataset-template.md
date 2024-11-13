@@ -13,7 +13,11 @@ Jump to section:
 - [Maintenance](#maintenance)
 
 ## Motivation
-The AIAAIC Repository (AI, Algorithmic, and Automation Incidents and Controversies) is an independent, open, public-interest resource designed to document incidents and controversies driven by AI, algorithms, and automation. By providing detailed accounts of risks and harms associated with these systems, the Repository seeks to make AI technologies more transparent, open, and ultimately accountable.
+
+The AIAAIC Repository (AI, Algorithmic, and Automation Incidents and Controversies) is an independent, open, public-interest resource designed to document incidents and controversies driven by AI, algorithms, and automation.
+
+### For what purpose was the dataset created? 
+By providing detailed accounts of risks and harms associated with these systems, the Repository seeks to make AI technologies more transparent, open, and ultimately accountable.
 
 Unlike traditional technical databases focused solely on safety, the AIAAIC Repository adopts a broader "outside-in" perspective, addressing non-technical issues such as:
 * Job displacements and economic impacts.
@@ -22,34 +26,21 @@ Unlike traditional technical databases focused solely on safety, the AIAAIC Repo
 * Anthropomorphism and its societal effects.
 * Unethical data usage and privacy concerns.
 
-This approach emphasizes the external risks and societal harms posed by AI systems rather than just technical vulnerabilities. As a resource, it supports researchers, educators, journalists, policymakers, and advocacy groups in analyzing and addressing the ethical and societal implications of AI technologies.
-
-### For what purpose was the dataset created? 
-
-_Was there a specific task in mind? Was there a specific gap that needed to be filled?
-Please provide a description._
-
 ### Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)?
+
+The AIAAIC Repository is operated by a group of human volunteers committed to fostering responsible AI practices. The repository is maintained as part of a broader initiative to ensure AI systems are transparent and accountable.
 
 ### Who funded the creation of the dataset? 
 
-_If there is an associated grant, please provide the name of the grantor and the grant
-name and number._
+The AIAAIC Repository is funded by donations from individuals worldwide. As a public interest initiative, AIAAIC is dedicated to maintaining independence and being technologically and politically non-partisan. To uphold this commitment, AIAAIC does not accept funding or in-kind donations from commercial entities, ensuring that potential conflicts of interest are avoided.
 
 ### Any other comments?
 
 ## Composition
 
-_Most of these questions are intended to provide dataset consumers with the
-information they need to make informed decisions about using the dataset for
-specific tasks. The answers to some of these questions reveal information
-about compliance with the EU’s General Data Protection Regulation (GDPR) or
-comparable regulations in other jurisdictions._
-
 ### What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)?
 
-_Are there multiple types of instances (e.g., movies, users, and ratings; people and
-interactions between them; nodes and edges)? Please provide a description._
+The dataset consists of documented incidents and controversies involving AI, algorithms, and automation. Each instance represents a specific incident, including its description, associated technology, sector, location, and impact.
 
 ### How many instances are there in total (of each type, if appropriate)?
 
